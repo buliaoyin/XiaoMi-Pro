@@ -1,9 +1,9 @@
 #!/bin/bash
 
 path=${0%/*}
-sudo launchctl remove /Library/LaunchAgents/org.zysuper.riceCracker.plist
+sudo launchctl remove /Library/LaunchAgents/org.zysuper.riceCracker.daemon.plist
 sudo pkill riceCrackerDaemon
-sudo rm -f /Library/LaunchAgents/org.zysuper.ricecracker.daemon.plist
+sudo rm -f /Library/LaunchAgents/org.zysuper.riceCracker.daemon.plist
 sudo rm -f /usr/bin/riceCrackerDaemon
 
 echo 'Uninstall HiScale complete！'
