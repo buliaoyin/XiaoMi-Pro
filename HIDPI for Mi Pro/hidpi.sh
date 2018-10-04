@@ -124,13 +124,13 @@ cat > "$dpiFile" <<-\HIDPI
         <key>scale-resolutions</key>
             <array>
                 <data>
-                AAAPAAAACHAA
-                </data>
-                <data>
                 AAAMgAAABkAA
                 </data>
                 <data>
                 AAAMgAAABwgA
+                </data>
+                <data>
+                AAAMAAAABsAA
                 </data>
                 <data>
                 AAALQAAABlQA
